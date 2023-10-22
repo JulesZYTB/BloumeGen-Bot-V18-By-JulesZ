@@ -19,6 +19,11 @@
 BloumeGen Bot V18 est un bot Discord de génération de compte open source codé en JavaScript avec [Discord.js](https://discord.js.org) par [JulesZ](https://github.com/JulesZYTB).  
 N'hésitez pas à ajouter une étoile ⭐ au référentiel pour promouvoir le projet!
 
+
+### Mise a jours 
+* La V30 du bot sortiras bientôt avec un systeme plus récent et des commandes slash pour en savoir plus !
+*   [Discord](https://discord.gg/bloumegen)
+
 ### Bot
 
 Offres BloumeGen Bot V18:
@@ -54,7 +59,7 @@ Offres BloumeGen Bot V18:
 ## Installation
 
 * Aller dans le fichier `config.json` et mettez le token de votre bot
-* Toujours dans le fichier `config.json` dans `logs`mettez l'id du salon ou seul le bot pourras fonctionner sinon il vas jamais vous répondre 
+* Toujours dans le fichier `config.json` dans `logs`mettez l'id du salon ou seul le bot pourras fonctionner sinon il vas jamais vous répondre 0
 * ```
   {
     "VIP_ID":"VIP ID ROLE",
