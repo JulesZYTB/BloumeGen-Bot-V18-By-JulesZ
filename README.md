@@ -1,6 +1,18 @@
-<center><img alt="BloumeGen" src="[https://share.creavite.co/MBqK7PfYzbvFvpHN.png](https://share.creavite.co/MBqK7PfYzbvFvpHN.gif)"></center>
+<p align="center">
+  <img src="https://share.creavite.co/MBqK7PfYzbvFvpHN.gif" width="300">
+</p>
 
-[![](https://img.shields.io/discord/1137011826593378376.svg?logo=discord&colorB=7289DA)](https://discord.gg/bloumegen)
+<p align="center">
+  <b>Bienvenue sur BloumeGen Bot V18</b>
+</p>
+
+<p align="center">
+    <br/><br/>
+    <a href="https://discord.gg/bloumegen" target="_blank">
+        <img src="https://img.shields.io/discord/1137011826593378376.svg?logo=discord&colorB=7289DA" alt="Discord" />
+    </a>
+</p>
+
 [![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://github.com/discordjs)
 [![](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/BloumeGen)
 
@@ -83,3 +95,4 @@ Pour restock des comptes, vous pouvez directement les restocks a partir du fichi
 *   [Discord](https://discord.gg/bloumegen)
 *   [Youtube](https://www.youtube.com/julesZYTB)
 *   [Github](https://github.com/JulesZYTB/)
+
