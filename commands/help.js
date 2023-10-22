@@ -24,6 +24,7 @@ module.exports = {
         .addField(`\`${prefix}restock <service> <compte/fichier>\``, "Restock un fichier ou plusieurs comptes a la fois.." )
         .addField(`\`${prefix}stock\``, "Vérifie les stocks du serveur." )
         .addField('Sponsor', `[Click ici](https://manager.bloume-gen.tk/)`)
+        .addField('CREDIT', `Bot By JulesZ & BloumeGen`)
         .setThumbnail(`https://share.creavite.co/MBqK7PfYzbvFvpHN.gif`)
 
  var owner = new discord.MessageEmbed()
@@ -35,6 +36,7 @@ module.exports = {
         .addField(`\`${prefix}set-logs [add/remove]\`` , `Modifier ou ajoutée un salon des logs`)
         .addField(`\`${prefix}ping\`` , `Vérifier la latence du bot.`)
         .addField('Sponsor', `[Click ici](https://manager.bloume-gen.tk/)`)
+        .addField('CREDIT', `Bot By JulesZ & BloumeGen`)
         .setThumbnail(`https://share.creavite.co/MBqK7PfYzbvFvpHN.gif`)
 
 
@@ -44,8 +46,9 @@ module.exports = {
   .setFooter(`BloumeGen・Prefix : ${prefix}`)
   .addField(`\`${prefix}lock/unlock <channel>\``, `Ouvrir ou fermer un salon.`)
   .addField(`\`${prefix}kick <@username>\``, `exclure un membre bien mérité.`)
-.addField(`\`${prefix}nuke <channel>\``, `Supprime un salon et le recrée (Un clone).`)
+  .addField(`\`${prefix}nuke <channel>\``, `Supprime un salon et le recrée (Un clone).`)
   .addField('Sponsor', `[Click ici](https://manager.bloume-gen.tk/)`)
+  .addField('CREDIT', `Bot By JulesZ & BloumeGen`)
   .setThumbnail(`https://share.creavite.co/MBqK7PfYzbvFvpHN.gif`)
   
   
