@@ -1,0 +1,45 @@
+{
+  "name": "bloume-gen-bot",
+  "version": "18.2.0",
+  "description": "stocker des comptes est généré les..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "discord",
+    "generator",
+    "gen-bot",
+    "javascript"
+  ],
+  "author": "JulesZYTB",
+  "license": "BloumeGen",
+  "bugs": {
+    "url": "https://discord.gg/BloumeGen"
+  },
+  "homepage": "https://discord.gg/BloumeGen",
+  "dependencies": {
+    "async": "^3.2.4",
+    "better-sqlite3": "^7.4.5",
+    "discord.js": "^12.5.3",
+    "discord.js-cuz": "^1.0.2",
+    "discord.js-pagination": "^1.0.3",
+    "download-file": "^0.1.5",
+    "express": "^4.18.2",
+    "firstline": "^2.0.2",
+    "fs": "^0.0.1-security",
+    "line-reader": "^0.4.0",
+    "ms": "^2.1.3",
+    "node-downloader-helper": "^1.0.15",
+    "os": "^0.1.2",
+    "quick.db": "^7.1.3",
+    "sync-request": "^6.1.0",
+    "twemoji-parser": "^13.1.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "nodeVersion": "12.16.3"
+}
