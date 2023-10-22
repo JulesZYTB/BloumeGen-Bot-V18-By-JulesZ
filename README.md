@@ -54,7 +54,7 @@ Offres BloumeGen Bot V18:
 * clear - Clear des messsage dans un salon
 * lock - Lock un salon pour les perms everyone
 * unlock - Unlock un salon pour les perms everyone
-* reload - Afficher les statistiques de GalackGen
+* reload - Afficher les statistiques de BloumeGen
 
 ## Installation
 
