@@ -54,7 +54,7 @@ Offres BloumeGen Bot V18:
 ## Installation
 
 * Aller dans le fichier `config.json` et mettez le token de votre bot
-* Toujours dans le fichier `config.json` dans `botChannel`mettez l'id du salon ou seul le bot pourras fonctionner
+* Toujours dans le fichier `config.json` dans `logs`mettez l'id du salon ou seul le bot pourras fonctionner sinon il vas jamais vous répondre 
 * ```
   {
     "VIP_ID":"VIP ID ROLE",
@@ -65,7 +65,7 @@ Offres BloumeGen Bot V18:
     "pingrole":"PING ROLE ID CHANNEL",
     "gen_role":"ID ROLE",
     "helper":"ID ROLE FOURNISSEUR",
-    "ladarronearyadenzizi":"LOGS DU BOT ID CHANNEL SI SES PAS CONFIG LE BOT MARCHE PAS §",
+    "logs":"LOGS DU BOT ID CHANNEL SI SES PAS CONFIG LE BOT MARCHE PAS !",
     "bot": {
         "owner1": "1123637251331608637",
         "owner2": "726077529479315466",
