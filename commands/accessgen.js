@@ -2,17 +2,17 @@ const discord = require('discord.js')
 const guildid = require('../config.json')
 //pk tu regarde ma cmd fdp
 module.exports = {
-    name:"gen-acc", //j avais pas d idée pour le nom dsl mon reuf
+    name:"acc-gen", //j avais pas d idée pour le nom dsl mon reuf
     async execute(client , message){
         const {prefix,gen_role,helper,VIP_ID} = require('../config.json')
-        if (!message.member.roles.cache.has(helper))return message.channel.send("**!! YOU ARE NOT ALLOWED !!**")
+        if (!message.member.roles.cache.has(helper))return message.channel.send("**Tu n'est pas fournis ou helper !**")
 
 
         let arrayID = message.mentions.users.first()
         if(!arrayID) return message.channel.send("T'est vraiment le pire helper , tu ping même pas la personne à qui je dois rajouté le role access gen ")
 
         let roleID = VIP_ID
-        let guild = client.guilds.cache.get('1098904218900889620');
+        let guild = client.guilds.cache.get(message.guild.id);
       
         try {
           let member = await guild.members.fetch(arrayID.id);
@@ -37,7 +37,7 @@ module.exports = {
               }
           })
         } catch (err) {
-         message.channel.send("**!! Une erreur est survenue !!**")
+         message.channel.send("**!! Une erreur est survenue check les perm du bot !!**")
          console.log(err)
         }
 
